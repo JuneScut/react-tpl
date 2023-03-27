@@ -1,0 +1,9 @@
+{
+  "entry": {
+    "app": "./src/index.tsx"
+  },
+  "output": {
+    "path": "./dist"
+  },
+  "template": "tpl/index.html"
+}
