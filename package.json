@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cross-env NODE_ENV=development webpack-dev-server --config ./script/webpack.config.js",
-    "build": "fe-cli webpack cross-env NODE_ENV=production",
-    "dev": "fe-cli webpack cross-env NODE_ENV=development "
+    "build": "fe-cli webpack  NODE_ENV=production",
+    "dev": "fe-cli webpack  NODE_ENV=development "
   },
   "author": "ellilachen",
   "license": "ISC",
