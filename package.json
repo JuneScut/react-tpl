@@ -9,10 +9,8 @@
     "build": "fe-cli webpack  NODE_ENV=production",
     "dev": "fe-cli webpack  NODE_ENV=development "
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "fe-cli eslint"
-    }
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx}": "fe-cli eslint"
   },
   "author": "ellilachen",
   "license": "ISC",
@@ -29,6 +27,7 @@
     "html-webpack-plugin": "^5.3.2",
     "less": "^4.1.1",
     "less-loader": "^10.0.1",
+    "lint-staged": "^13.2.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "style-loader": "^3.1.0",
