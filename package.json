@@ -9,6 +9,11 @@
     "build": "fe-cli webpack  NODE_ENV=production",
     "dev": "fe-cli webpack  NODE_ENV=development "
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "fe-cli eslint"
+    }
+  },
   "author": "ellilachen",
   "license": "ISC",
   "dependencies": {
@@ -35,6 +40,7 @@
     "@types/react": "^17.0.14",
     "@types/react-dom": "^17.0.9",
     "cross-env": "^7.0.3",
+    "husky": "^8.0.3",
     "webpack-dev-server": "^4.13.1"
   }
 }
